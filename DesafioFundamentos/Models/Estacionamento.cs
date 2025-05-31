@@ -1,7 +1,8 @@
+// Projeto finalizado do curso de Fundamentos de Programação C#
 namespace DesafioFundamentos.Models
 {
     public class Estacionamento
-    {   
+    {
         // Preço fixo cobrado na entrada
         private decimal precoInicial = 0.00M;
         // Preço por hora adicional de permanência
