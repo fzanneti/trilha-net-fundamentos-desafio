@@ -11,20 +11,12 @@ namespace DesafioFundamentos.Models
         private List<string> veiculos = new List<string>();
 
 
-
-
-
-
         // Construtor para inicializar o estacionamento com os preços definidos
         public Estacionamento(decimal precoInicial, decimal precoPorHora)
         {
             this.precoInicial = precoInicial;
             this.precoPorHora = precoPorHora;
         }
-
-
-
-
 
 
         // Métodos para adicionar um veículo à lista
@@ -48,10 +40,6 @@ namespace DesafioFundamentos.Models
                 Console.WriteLine("Veículo adicionado com sucesso!");
             }
         }
-
-
-
-
 
 
         // Método para remover um veículo do estacionamento e calcular o valor a pagar
@@ -82,10 +70,6 @@ namespace DesafioFundamentos.Models
             }
 
         }
-
-
-
-
 
 
         // Método para listar todos os veículos atualmente estacionados
